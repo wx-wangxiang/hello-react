@@ -43,7 +43,7 @@ class CommentApp extends Component {
 
 	// 删除评论
 	handleDeleteComment(index) {
-		const comments = this.state.comments.concat([]);
+		const comments = this.state.comments;
 
 		comments.splice(index, 1);
 		this.setState({

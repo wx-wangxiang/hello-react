@@ -1,0 +1,17 @@
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+.header {
+	height: 1.066667rem;
+	width: 100%;
+	background-color: red;
+	padding-left: 0.613333rem
+}
+.header .header-item {
+	float: left;
+	color: #ffcdce;
+	font-size: 0.426667rem;
+	margin-right: 0.533333rem;
+	line-height: 1.066667rem;
+}
